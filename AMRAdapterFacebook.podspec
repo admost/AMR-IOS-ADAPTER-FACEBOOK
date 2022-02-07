@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterFacebook'
-  s.version          = '6.9.0.3'
+  s.version          = '6.9.0.4'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
-  s.vendored_libraries = 'AMRAdapterFacebook/Libs/libAMRAdapterFacebook.a'
-  s.dependency 'AMRSDK', '~> 1.5.4'
+  s.vendored_frameworks = 'AMRAdapterFacebook/Libs/AMRAdapterFacebook.xcframework'
+  s.dependency 'AMRSDK', '~> 1.5.6'
   s.dependency 'FBAudienceNetwork', '6.9.0'
 end
