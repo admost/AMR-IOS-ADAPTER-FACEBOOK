@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterFacebook'
-  s.version          = '6.12.0.1'
+  s.version          = '6.14.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
  								}
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.vendored_frameworks = 'AMRAdapterFacebook/Libs/AMRAdapterFacebook.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.25'
-  s.dependency 'FBAudienceNetwork', '6.12.0'
+  s.dependency 'FBAudienceNetwork', '6.14.0'
 end
