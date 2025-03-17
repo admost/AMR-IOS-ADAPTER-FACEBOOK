@@ -3,6 +3,10 @@
 Changelog for AMRAdapterFacebook. 
 FBAudienceNetwork [changelog](https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog)
 
+## [16.17.1.0] - 2025-03-17
+### Updated
+- Offical release for FBAudienceNetwork 6.17.1
+
 ## [6.15.2.1] - 2024-12-30
 ### Updated
 - Revenue Paid supported added.
