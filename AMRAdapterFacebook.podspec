@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterFacebook'
-  s.version          = '6.17.1.0'
+  s.version          = '6.20.1.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.55'
-  s.dependency 'FBAudienceNetwork', '6.17.1'
+  s.dependency 'FBAudienceNetwork', '6.20.1'
 end
