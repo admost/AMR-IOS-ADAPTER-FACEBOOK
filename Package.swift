@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AMRAdapterFacebook",
-            targets: ["AMRAdapterFacebook"]
+            targets: ["AMRAdapterFacebookBridge"]
         )
     ],
     dependencies: [
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AMRAdapterFacebook",
+            name: "AMRAdapterFacebookBridge",
             dependencies: [
                 "AMRAdapterFacebookLib",
                 "FBAudienceNetwork",
