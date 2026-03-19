@@ -3,7 +3,7 @@
 Changelog for AMRAdapterFacebook. 
 FBAudienceNetwork [changelog](https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog)
 
-## [6.21.1] - 2026-03-18
+## [6.21.2] - 2026-03-18
 ### Updated
 - Offical release for FBAudienceNetwork 6.21.1
 - SPM support added.
