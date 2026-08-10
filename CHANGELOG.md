@@ -3,6 +3,10 @@
 Changelog for AMRAdapterFacebook. 
 FBAudienceNetwork [changelog](https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog)
 
+## [6.22.1] - 2026-08-10
+### Fixed
+- Package.swift declared swift-tools-version 5.3 while using .iOS(.v15), which is only available from PackageDescription 5.5; SPM could not compile the manifest. Bumped the tools version. The binary is unchanged from 6.22.0.
+
 ## [6.22.0] - 2026-08-10
 ### Updated
 - Official release for FBAudienceNetwork 6.22.0
