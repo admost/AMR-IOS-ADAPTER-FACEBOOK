@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AMRAdapterFacebook",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84"),
-        .package(url: "https://github.com/facebook/FBAudienceNetwork.git", from: "6.21.1")
+        .package(url: "https://github.com/facebook/FBAudienceNetwork.git", from: "6.22.0")
     ],
     targets: [
         .target(
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterFacebookLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/releases/download/6.21.3/AMRAdapterFacebook.xcframework.zip",
-            checksum: "a335b92b0df643f9287d8bb6cccda1c3adc3179ad8804725d0ab2e6e2ae2a3c8"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/releases/download/6.22.0/AMRAdapterFacebook.xcframework.zip",
+            checksum: "772c989f7eefe23390ab1ef783f08aecc58902d6572f2338601895b5bf41e08d"
         )
     ]
 )
